@@ -1,0 +1,5 @@
+<launch> 
+<node name= "simulator" pkg= "minimal_nodes_service" type= "minimal_simulator_p2" /> 
+<node name= "controller" pkg= "minimal_nodes_service" type= "minimal_controller_p2" /> 
+<node name= "commander" pkg = "minimal_nodes_service" type = "sin_commander_p2" />
+</launch> 

@@ -1,0 +1,11 @@
+#inputs
+float64 frequency
+float64 amplitude
+float64 numCycles
+---
+#result
+bool did_it_happen
+---
+
+#feedback
+float64 completion_percentage
